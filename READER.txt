@@ -3,13 +3,13 @@ README.txt
 by PD Sebastian
 2013.04.20
 
-This is a derivative of Ed Heil's absolutely minimialist wxPOE (5/5/2005).
+This is a derivative of Ed Heil's absolutely minimalist wxPOE (5/5/2005).
 
 The intent is to add a basic framework for the structure of the frames and the passing of signals
 between the Wx and POE loops. 
 
-Typically both Wx and POE loops require some initialization. Thus this framework expects some
-bootstrapping of worker objects and the Wx/POE enviroments. This tentatively configured via a YAML
+Typically both Wx and POE loops require some initialization. Thus, this framework expects some
+bootstrapping of worker objects and the Wx/POE enviroments. This is tentatively configured via a YAML
 configuration file.
 
 To facilitate control and communication between the inside and outside loops, three worker objects
